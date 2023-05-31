@@ -11,7 +11,7 @@ document.querySelector("h1").onmouseover = event => {
     event.target.innerText = event.target.innerText
       .split("")
       .map((letter, index) => {
-        if(index < iteration) {
+        if(index <  iteration ) {
           return event.target.dataset.value[index];
         }
 
